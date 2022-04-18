@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="calculadora.js" defer></script>
     <title>Calculadora</title>
   </head>
   <body>
@@ -13,17 +14,18 @@
         <h1>Calculadora</h1>
       </div>
       <div class="suma">
-        <button class="boton">sumar</button>
+        <button class="boton" onclick="SUMA()">sumar</button>
       </div>
       <div class="resta">
-        <button class="boton">restar</button>
+        <button class="boton" onclick="RESTA()">restar</button>
       </div>
       <div class="multiplicacion">
-        <button class="boton">multiplicar</button>
+        <button class="boton" onclick="MULTIPLICACION()">multiplicar</button>
       </div>
       <div class="division">
-        <button class="boton">division</button>
+        <button class="boton" onclick="DIVISION()">division</button>
       </div>
+      
     </div>
   </body>
 </html>
