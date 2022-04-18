@@ -26,24 +26,35 @@ console.log('importado correctamente');
         //     console.log(`resultado ${resultado}`);
         // }
 
-        function SUMA(){
+        function guardarPrimerNumero() {
+            
+        }
+
+        function guardarSegundoNumero() {
+            
+        }
+
+        function suma(){
             console.log('Suma')
             resultado= 'SUMA: ' + (num1+num2); 
             
         }
-        function RESTA(){
+        function resta(){
             console.log('Resta');
             resultado= 'RESTA: '+ (num1-num2); 
          
         }
-        function MULTIPLICACION() {
+        function multiplicación() {
             console.log('Multiplicación');
             resultado= 'MULTPLICACIÓN: ' + (num1*num2); 
            
         }
-        function DIVISION(){
+        function division(){
             console.log('División')
             resultado= 'DIVISIÓN: ' + (num1/num2); 
+            
+        }
+        function igual(){
             
         }
         
