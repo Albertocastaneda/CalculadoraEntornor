@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="calculadora.js" defer></script>
     <title>Calculadora</title>
   </head>
   <body>
@@ -13,50 +14,51 @@
         <h1>Calculadora</h1>
       </div>
       <div id="numeros" class="uno">
-        <button>1</button>
+        <button onclick="conseguirNumero(1)">1</button>
       </div>
       <div id="numeros" class="dos">
-        <button>2</button>
+        <button onclick="conseguirNumero(2)">2</button>
       </div>
       <div id="numeros" class="tres">
-        <button>3</button>
+        <button onclick="conseguirNumero(3)">3</button>
       </div>
       <div id="numeros" class="cuatro">
-        <button>4</button>
+        <button onclick="conseguirNumero(4)">4</button>
       </div>
       <div id="numeros" class="cinco">
-        <button>5</button>
+        <button onclick="conseguirNumero(5)">5</button>
       </div>
       <div id="numeros" class="seis">
-        <button>6</button>
+        <button onclick="conseguirNumero(6)">6</button>
       </div>
       <div id="numeros" class="siete">
-        <button>7</button>
+        <button onclick="conseguirNumero(7)">7</button>
       </div>
       <div id="numeros" class="ocho">
-        <button>8</button>
+        <button onclick="conseguirNumero(8)">8</button>
       </div>
       <div id="numeros" class="nueve">
-        <button>9</button>
+        <button onclick="conseguirNumero(9)">9</button>
       </div>
       <div id="numeros" class="cero">
-        <button>0</button>
+        <button onclick="conseguirNumero(0)">0</button>
       </div>
       <div class="igual">
-        <button>=</button>
+        <button onclick="igual('=')">=</button>
       </div>
       <div class="suma">
-        <button>Sumar</button>
+        <button onclick="obtenerOperacion('+')">Sumar</button>
       </div>
       <div class="resta">
-        <button>Restar</button>
+        <button onclick="obtenerOperacion('-')">Restar</button>
       </div>
       <div class="multiplicacion">
-        <button>Multiplicar</button>
+        <button onclick="obtenerOperacion('*')">Multiplicar</button>
       </div>
       <div class="division">
-        <button>Division</button>
+        <button onclick="obtenerOperacion('/')">Division</button>
       </div>
+      
     </div>
   </body>
 </html>
