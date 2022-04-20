@@ -1,10 +1,11 @@
 console.log('importado correctamente');
 
- var Operaciones= ['+', '-', '*', '/'];
+ 
 
          var num1 ;
          var num2 ;
          var resultado="";
+         var operacion;
 
         function suma(){
             console.log('Suma')
@@ -27,8 +28,15 @@ console.log('importado correctamente');
             
         }
         
-        function igual(){
+        function igual(igual){
+            console.log(igual);
+            console.log(resultado);
+        }
 
-            resultado;
+        function conseguirNumero(num){
+            console.log(num)
+        }
+        function obtenerOperacion(operacion) {
+            console.log(operacion);
         }
         
