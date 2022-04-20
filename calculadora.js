@@ -5,34 +5,6 @@ console.log('importado correctamente');
          var num1 ;
          var num2 ;
          var resultado="";
-            
-        //     switch (elemento) {
-        //         case '+':
-        //            resultado= 'SUMA: ' + (num1+num2);   
-        //             break;
-        //         case '-':
-        //             resultado= 'RESTA: '+ (num1-num2); 
-        //             break;
-        //         case '*':
-        //             resultado= 'MULTPLICACIÓN: ' + (num1*num2); 
-        //              break;
-        //         case '/':
-        //             resultado= 'DIVISIÓN: ' + (num1/num2); 
-        //         break;
-            
-        //         default:
-        //             break;
-        //     }
-        //     console.log(`resultado ${resultado}`);
-        // }
-
-        function guardarPrimerNumero() {
-            
-        }
-
-        function guardarSegundoNumero() {
-            
-        }
 
         function suma(){
             console.log('Suma')
@@ -54,7 +26,9 @@ console.log('importado correctamente');
             resultado= 'DIVISIÓN: ' + (num1/num2); 
             
         }
+        
         function igual(){
-            
+
+            resultado;
         }
         
