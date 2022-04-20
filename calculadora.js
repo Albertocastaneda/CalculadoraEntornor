@@ -37,21 +37,22 @@ console.log('importado correctamente');
             // console.log('operacion:', operacion);
 
             switch (operacion) {
-                case suma:
+                case '+':
                     resultado= num1 + num2;
                     console.log(resultado);
                     break;
-                case resta:
+                case '-':
                     resultado= num1 - num2;
                     console.log(resultado);
                     break;
-                case multiplicación:
+                case '*':
                     resultado= num1 * num2;
                     console.log(resultado);
                     break;
-                case division:
+                case '/':
                     resultado= num1/num2;
                     console.log(resultado);
+                    break;
                 default:
                     break;
             }
@@ -59,6 +60,8 @@ console.log('importado correctamente');
             num1 = null;
             num2 = null;
             operacion = null;
+            var display = document.getElementById('display');
+            display.innerHTML=resultado;
 
         }
 
