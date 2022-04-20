@@ -32,10 +32,6 @@ console.log('importado correctamente');
             
             //en funcion de "operacion" y de num1 y num2, resultado va a ser una cosa u otra
 
-            // console.log('numero 1:', num1);
-            // console.log('numero 2:', num2);
-            // console.log('operacion:', operacion);
-
             switch (operacion) {
                 case '+':
                     resultado= num1 + num2;
