@@ -1,0 +1,14 @@
+Ficheros:
+
+Calculadora; Esta es la interfaz grafica que permite utilizar la calculadora  estructurada mediante grid 
+para ser mas presentable esteticamente y estructurada en funcion de botones para que miediante la parte logica
+una vez conectada cada boton tenga una funcion.
+
+Styles; Parte que le da los estilos al html para que se pueda ver de dicha forma. Coma ya mencione se incluye flex,grid y botones.
+
+Logica(javaScript); Parte que se encarga de el funcionamineto de la calculadora ya que sin el simplemente tendriamos una interfaz
+grafica que no realizaria ninguna funcion. Hace que cada vez que se pulse un numero se guarde en la memoria en este caso guarda dos numeros,
+mediante funciones en este caso suma, resta, multiplicacion y division hace que con esos dos numeros se realize dicha operacion y 
+devuelva un resultado.
+
+Test: Parte que analiza el correcto funcionamineto de la parte logica asegurandose de que no se encuentren errores en el codigo.
