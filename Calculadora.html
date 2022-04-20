@@ -12,6 +12,7 @@
     <div class="calculadora">
       <div class="titulo">
         <h1>Calculadora</h1>
+        <h2 id="display"></h2>
       </div>
       <div id="numeros" class="uno">
         <button onclick="conseguirNumero(1)">1</button>
@@ -44,7 +45,7 @@
         <button onclick="conseguirNumero(0)">0</button>
       </div>
       <div class="igual">
-        <button onclick="igual('=')">=</button>
+        <button onclick="igual()">=</button>
       </div>
       <div class="suma">
         <button onclick="obtenerOperacion('+')">Sumar</button>
@@ -58,7 +59,6 @@
       <div class="division">
         <button onclick="obtenerOperacion('/')">Division</button>
       </div>
-      
     </div>
   </body>
 </html>
