@@ -7,9 +7,11 @@ console.log('importado correctamente');
          var resultado="";
          var operacion;
 
-        function suma(){
+        function suma(n1, n2){
             console.log('Suma')
-            resultado= 'SUMA: ' + (num1+num2); 
+            return n1+n2; 
+            // return resultado
+            // mensaje='SUMA: ' + resultado;
             
         }
         function resta(){
@@ -34,7 +36,7 @@ console.log('importado correctamente');
 
             switch (operacion) {
                 case '+':
-                    resultado= num1 + num2;
+                    resultado= suma(num1,num2);
                     console.log(resultado);
                     break;
                 case '-':
@@ -75,5 +77,5 @@ console.log('importado correctamente');
 
         }
 
-        module.exports= new operacion;
+        module.exports= {conseguirNumero, obtenerOperacion, operacion,  suma, resta, multiplicación, division};
         
