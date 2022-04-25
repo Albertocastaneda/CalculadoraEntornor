@@ -1,0 +1,22 @@
+{
+  "name": "calculadoraentornos",
+  "version": "1.0.0",
+  "description": "dasdsdfs",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albertocastaneda/CalculadoraEntornos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albertocastaneda/CalculadoraEntornos/issues"
+  },
+  "homepage": "https://github.com/Albertocastaneda/CalculadoraEntornos#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
