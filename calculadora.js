@@ -74,4 +74,6 @@ console.log('importado correctamente');
             operacion = op;
 
         }
+
+        module.exports= new operacion;
         
