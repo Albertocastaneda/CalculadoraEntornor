@@ -68,5 +68,10 @@ console.log('importado correctamente');
 
         }
 
+        function guardarNumero() {
+         num1 = resultado;
+            
+        }
+
         module.exports= new operacion;
         
