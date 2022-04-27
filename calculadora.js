@@ -72,4 +72,4 @@ function prueba() {
     return "todo ok";
 }
 
-module.exports = {num1,num2,resultado,operacion,suma, resta, multiplicación,division,igual,conseguirNumero,obtenerOperacion,guardarNumero};
+module.exports = {num1,num2,resultado,operacion,suma, resta, multiplicación,division,igual,conseguirNumero,obtenerOperacion,guardarNumero,prueba};

@@ -4,7 +4,8 @@
   "description": "dasdsdfs",
   "main": "calculadora.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "todotest": "jest --watchAll"
   },
   "repository": {
     "type": "git",

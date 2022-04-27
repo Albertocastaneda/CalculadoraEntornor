@@ -1,9 +1,12 @@
-var calculatora = require('./calculadora');
-describe('comprobaciones iniciales',()=>{
-    test('todo ok', ()=>{
-        expect(true).toBe(true)
-    })
-})
+var calculatora = require("./calculadora");
+describe("comprobaciones iniciales", () => {
+  test("todo ok", () => {
+    expect(true).toBe(true);
+  });
+  test("importa calc", () => {
+    expect(calculatora.prueba()).toBe("todo ok");
+  });
+});
 
 // test('addition 1 + 2 should be equals to 3', () => {
 //     expect(calculatora.add(1, 2)).toBe(3);
