@@ -12,9 +12,16 @@
     <div class="calculadora">
       <div class="titulo">
         <h1>Calculadora</h1>
-        <h2 id="display"></h2>
       </div>
-      <div class="pantalla"></div>
+      <div class="pantalla">
+        <div id="fila1">
+          <div id="primerN"></div>
+          <div id="operacion"></div>
+          <div id="segundoN"></div>
+
+        </div>
+        <div id="resultado"></div>
+      </div>
       <div class="numeros" id="uno">
         <button onclick="conseguirNumero(1)">1</button>
       </div>
@@ -49,16 +56,19 @@
         <button onclick="igual()">=</button>
       </div>
       <div class="suma">
-        <button onclick="obtenerOperacion('+')">Sumar</button>
+        <button onclick="obtenerOperacion('+')">+</button>
       </div>
       <div class="resta">
-        <button onclick="obtenerOperacion('-')">Restar</button>
+        <button onclick="obtenerOperacion('-')">-</button>
       </div>
       <div class="multiplicacion">
-        <button onclick="obtenerOperacion('*')">Multiplicar</button>
+        <button onclick="obtenerOperacion('*')">x</button>
       </div>
       <div class="division">
-        <button onclick="obtenerOperacion('/')">Division</button>
+        <button onclick="obtenerOperacion('/')">/</button>
+      </div>
+      <div class="GuardarResultado">
+        <button>Ans</button>
       </div>
     </div>
   </body>
