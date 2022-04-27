@@ -68,5 +68,5 @@ console.log('importado correctamente');
 
         }
 
-        module.exports= new operacion;
+        module.exports=  operacion;
         
