@@ -31,15 +31,15 @@ console.log('importado correctamente');
                     console.log(resultado);
                     break;
                 case '-':
-                    resultado= resta(num1 - num2);
+                    resultado= resta(num1, num2);
                     console.log(resultado);
                     break;
                 case '*':
-                    resultado= multiplicación(num1 * num2) ;
+                    resultado= multiplicación(num1, num2) ;
                     console.log(resultado);
                     break;
                 case '/':
-                    resultado= division(num1/num2);
+                    resultado= division(num1, num2);
                     console.log(resultado);
                     break;
                 default:
@@ -49,8 +49,7 @@ console.log('importado correctamente');
             num1 = null;
             num2 = null;
             operacion = null;
-            var display = document.getElementById('display');
-            display.innerHTML=resultado;
+            document.getElementById('display').innerHTML=resultado;
 
         }
 
