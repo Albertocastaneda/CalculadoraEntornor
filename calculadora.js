@@ -49,7 +49,7 @@ console.log('importado correctamente');
             num1 = null;
             num2 = null;
             operacion = null;
-            document.getElementById('display').innerHTML=resultado;
+            document.getElementById('resultado').innerHTML=resultado;
 
         }
 
@@ -57,13 +57,16 @@ console.log('importado correctamente');
             // console.log(num)
             if (operacion==null){
                 num1= num;
+                document.getElementById('primerN').innerHTML=num1
             }else{
                 num2=num;
+                document.getElementById('segundoN').innerHTML=num2
             }
         }
         function obtenerOperacion(op) {
             // console.log(operacion)
             operacion = op;
+            document.getElementById('operacion').innerHTML=operacion
 
         }
 
