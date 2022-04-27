@@ -7,24 +7,18 @@ console.log('importado correctamente');
          var resultado="";
          var operacion;
 
-        function suma(){
-            console.log('Suma')
-            resultado= 'SUMA: ' + (num1+num2); 
+        function suma(n1,n2){
+           return n1 +  n2 ; 
             
         }
-        function resta(){
-            console.log('Resta');
-            resultado= 'RESTA: '+ (num1-num2); 
-         
+        function resta(n1, n2){
+           return n1 - n2;
         }
-        function multiplicación() {
-            console.log('Multiplicación');
-            resultado= 'MULTPLICACIÓN: ' + (num1*num2); 
-           
+        function multiplicación(n1 , n2) {
+           return n1 * n2;
         }
-        function division(){
-            console.log('División')
-            resultado= 'DIVISIÓN: ' + (num1/num2); 
+        function division(n1, n2){
+           return n1 / n2;
             
         }
         
@@ -34,7 +28,7 @@ console.log('importado correctamente');
 
             switch (operacion) {
                 case '+':
-                    resultado= num1 + num2;
+                    resultado= suma(num1,num2);
                     console.log(resultado);
                     break;
                 case '-':
