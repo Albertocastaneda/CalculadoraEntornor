@@ -18,8 +18,7 @@ console.log('importado correctamente');
            return n1 * n2;
         }
         function division(n1, n2){
-           return n1 / n2;
-            
+           return n1 / n2; 
         }
         
         function igual(){
@@ -32,15 +31,15 @@ console.log('importado correctamente');
                     console.log(resultado);
                     break;
                 case '-':
-                    resultado= num1 - num2;
+                    resultado= resta(num1 - num2);
                     console.log(resultado);
                     break;
                 case '*':
-                    resultado= num1 * num2;
+                    resultado= multiplicación(num1 * num2) ;
                     console.log(resultado);
                     break;
                 case '/':
-                    resultado= num1/num2;
+                    resultado= division(num1/num2);
                     console.log(resultado);
                     break;
                 default:
