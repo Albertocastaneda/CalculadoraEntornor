@@ -68,7 +68,7 @@
   justify-content: center;
   text-align: center;
   border-radius: 15px;
-  grid-column: 4 / 6;
+  grid-column: 4 / 5;
   grid-row: 6 / 7;
 }
 .igual {
@@ -79,6 +79,16 @@
   text-align: center;
   border-radius: 15px;
   grid-column: 2 / 4;
+  grid-row: 6 / 7;
+}
+.GuardarResultado {
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  grid-column: 5 / 6;
   grid-row: 6 / 7;
 }
 #uno {
