@@ -51,8 +51,10 @@ function igual() {
 function conseguirNumero(num) {
   // console.log(num)
   if (operacion == null) {
+    borrarResultado();
     num1 = num;
     document.getElementById("primerN").innerHTML = num1;
+    
   } else {
     num2 = num;
     document.getElementById("segundoN").innerHTML = num2;
@@ -64,7 +66,16 @@ function obtenerOperacion(op) {
   document.getElementById("operacion").innerHTML = operacion;
 }
 
+function borrarPantalla() {
+
+  document.getElementById("primerN").innerHTML = "";
+  document.getElementById("SegundoN").innerHTML = "";
+  document.getElementById("operacion").innerHTML = "";
+  document.getElementById("resultado").innerHTML = "";
+}
+
 function GuardarResultado() {
+  console.log(resultado)
   num1 = resultado;
 }
 
@@ -72,4 +83,4 @@ function prueba() {
     return "todo ok";
 }
 
-module.exports = {num1,num2,resultado,operacion,suma, resta, multiplicación,division,igual,conseguirNumero,obtenerOperacion,guardarNumero,prueba};
+module.exports = {num1,num2,resultado,operacion,suma, resta, multiplicación,division,igual,conseguirNumero,obtenerOperacion,GuardarResultado,prueba};
