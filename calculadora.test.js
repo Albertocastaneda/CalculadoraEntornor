@@ -6,20 +6,28 @@ describe("comprobaciones iniciales", () => {
   test("importa calc", () => {
     expect(calculatora.prueba()).toBe("todo ok");
   });
+  test("sumar numeros",()=>{
+      expect(calculatora.suma()).toBe("suma");
+  });
+  test("restar numeros",()=>{
+      expect(calculatora.resta()).toBe("resta");
+  });
+  test("multiplicar numero",()=>{
+      expect(calculatora.multiplicación()).toBe("multiplicar");
+  });
+  test("dividir numero",()=>{
+      expect(calculatora.division()).toBe("dividir");
+  });
+  test("igual",()=>{
+      expect(calculatora.igual()).toBe("igual");
+  });
+  test("conseguirNumero",()=>{
+      expect(calculatora.conseguirNumero()).toBe("conseguir Número");
+  });
+  test("obtener Operación",()=>{
+      expect(calculatora.obtenerOperacion()).toBe("Obtener Oeración");
+  });
+  test("guardar Número",()=>{
+      expect(calculatora.guardarNumero()).toBe("Guardar número");
+  });
 });
-
-// test('addition 1 + 2 should be equals to 3', () => {
-//     expect(calculatora.add(1, 2)).toBe(3);
-// });
-
-// test('substract 1 - 1 should be equals to 0', () => {
-//     expect(calculatora.substract(1, 1)).toBe(0);
-// });
-
-// test('divide 2 by 2 should be equals to 1', () => {
-//     expect(calculatora.divider(2, 2)).toBe(1);
-// });
-
-// test('multiply 3 by 2 should be equals to 6', () => {
-//     expect(calculatora.multiplier(3, 2)).toBe(6);
-// });
