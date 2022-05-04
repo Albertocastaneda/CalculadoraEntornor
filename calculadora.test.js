@@ -24,10 +24,10 @@ describe("comprobaciones iniciales", () => {
   test("conseguirNumero",()=>{
       expect(calculatora.conseguirNumero()).toBe("conseguir Número");
   });
-  test("obtener Operación",()=>{
+  test("obtenerOperación",()=>{
       expect(calculatora.obtenerOperacion()).toBe("Obtener Oeración");
   });
-  test("guardar Número",()=>{
+  test("guardarNúmero",()=>{
       expect(calculatora.guardarNumero()).toBe("Guardar número");
   });
 });
