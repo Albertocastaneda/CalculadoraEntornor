@@ -64,7 +64,7 @@ function obtenerOperacion(op) {
   document.getElementById("operacion").innerHTML = operacion;
 }
 
-function guardarNumero() {
+function guardarResultado() {
   num1 = resultado;
 }
 
