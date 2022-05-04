@@ -28,6 +28,6 @@ describe("comprobaciones iniciales", () => {
       expect(calculatora.obtenerOperacion()).toBe("Obtener Oeración");
   });
   test("GuardarResultado",()=>{
-      expect(calculatora.guardarNumero()).toBe("Guardar Resultado");
+      expect(calculatora.GuardarResultado()).toBe("Guardar Resultado");
   });
 });
