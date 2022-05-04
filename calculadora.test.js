@@ -27,7 +27,7 @@ describe("comprobaciones iniciales", () => {
   test("obtenerOperación",()=>{
       expect(calculatora.obtenerOperacion()).toBe("Obtener Oeración");
   });
-  test("guardarNúmero",()=>{
-      expect(calculatora.guardarNumero()).toBe("Guardar número");
+  test("GuardarResultado",()=>{
+      expect(calculatora.guardarNumero()).toBe("Guardar Resultado");
   });
 });
