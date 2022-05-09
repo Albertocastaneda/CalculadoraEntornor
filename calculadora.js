@@ -17,6 +17,13 @@ function multiplicación(n1, n2) {
 function division(n1, n2) {
   return n1 / n2;
 }
+function raiz(x) {
+ return Math.sqrt(x);
+  
+}
+function potencia(base, exp) {
+  return Math.pow(base, exp);
+}
 
 function igual() {
   //en funcion de "operacion" y de num1 y num2, resultado va a ser una cosa u otra
