@@ -3,7 +3,7 @@ console.log("importado correctamente");
 var num1;
 var num2;
 var resultado = "";
-var operacion;
+var operacion =null;
 
 function suma(n1, n2) {
   return n1 + n2;
@@ -45,6 +45,14 @@ function igual() {
       resultado = division(num1, num2);
       console.log(resultado);
       break;
+    case "√":
+
+      resultado= raiz(num1);
+      console.log(resultado);
+    break;
+    case"^":
+    resultado= potencia(num1, num2);
+    console.log(resultado);
     default:
       break;
   }
@@ -56,9 +64,9 @@ function igual() {
 }
 
 function conseguirNumero(num) {
-  // console.log(num)
+  //  console.log(num)
   if (operacion == null) {
-    borrarResultado();
+    borrarPantalla();
     num1 = num;
     document.getElementById("primerN").innerHTML = num1;
     
@@ -69,6 +77,10 @@ function conseguirNumero(num) {
 }
 function obtenerOperacion(op) {
   // console.log(operacion)
+  if (operacion=='√'){
+    num2=2;
+  }
+
   operacion = op;
   document.getElementById("operacion").innerHTML = operacion;
 }
@@ -76,7 +88,7 @@ function obtenerOperacion(op) {
 function borrarPantalla() {
 
   document.getElementById("primerN").innerHTML = "";
-  document.getElementById("SegundoN").innerHTML = "";
+  document.getElementById("segundoN").innerHTML = "";
   document.getElementById("operacion").innerHTML = "";
   document.getElementById("resultado").innerHTML = "";
 }
