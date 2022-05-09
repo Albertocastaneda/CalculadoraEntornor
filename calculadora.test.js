@@ -31,6 +31,12 @@ describe("calcular igual",()=>{
     });
 })
 
+describe("calcular potencia",()=>{
+    test("potencia",()=>{
+        expect(calculatora.potencia()).toBe("Potencia");
+    });
+})
+
 test("importa calc", () => {
     expect(calculatora.prueba()).toBe("todo ok");
 });

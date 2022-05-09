@@ -90,4 +90,4 @@ function prueba() {
     return "todo ok";
 }
 
-module.exports = {num1,num2,resultado,operacion,suma, resta, multiplicación,division,igual,conseguirNumero,obtenerOperacion,GuardarResultado,prueba};
+module.exports = {num1,num2,resultado,operacion,suma, resta, multiplicación,division,igual,conseguirNumero,obtenerOperacion,GuardarResultado,prueba,potencia};
