@@ -60,7 +60,7 @@
   text-align: center;
   border-radius: 15px;
   margin-right: 5px;
-  grid-column: 4 / 6;
+  grid-column: 4 / 5;
   grid-row: 4 / 5;
 }
 .multiplicacion {
@@ -119,6 +119,17 @@
   border-radius: 15px;
   grid-column: 5 / 6;
   grid-row: 5 / 6;
+}
+.potencia {
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5px;
+  border-radius: 15px;
+  grid-column: 5 / 6;
+  grid-row: 4 / 5;
 }
 #uno {
   margin-left: 5px;
