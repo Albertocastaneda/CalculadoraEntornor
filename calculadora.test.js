@@ -1,17 +1,50 @@
-var calculatora = require('./calculadora');
-
-test('addition 1 + 2 should be equals to 3', () => {
+var calculatora = require("./calculadora");
+describe("comprobaciones iniciales", () => {
+  test("todo ok", () => {
+    expect(true).toBe(true);
+  });
+});
+describe("calcular suma", () => {
+  test("sumar numeros", () => {
     expect(calculatora.suma(1, 2)).toBe(3);
+  });
+});
+describe("calcular resta", () => {
+  test("restar numeros", () => {
+    expect(calculatora.resta(2,1)).toBe(1);
+  });
+});
+describe("calcular multiplicación", () => {
+  test("multiplicar numero", () => {
+    expect(calculatora.multiplicación(2,1)).toBe(2);
+  });
+});
+describe("calcular división", () => {
+  test("dividir numero", () => {
+    expect(calculatora.division(2,1)).toBe(2);
+  });
 });
 
-test('substract 1 - 1 should be equals to 0', () => {
-    expect(calculatora.substract(1, 1)).toBe(0);
+describe("calcular potencia", () => {
+  test("potencia", () => {
+    expect(calculatora.potencia(3,2)).toBe(9);
+  });
 });
 
-test('divide 2 by 2 should be equals to 1', () => {
-    expect(calculatora.divider(2, 2)).toBe(1);
+test.skip("igual", () => {
+    expect(calculatora.igual()).toBe("igual");
 });
 
-test('multiply 3 by 2 should be equals to 6', () => {
-    expect(calculatora.multiplier(3, 2)).toBe(6);
+test.skip("importa calc", () => {
+  expect(calculatora.prueba()).toBe("todo ok");
+});
+
+test.skip("conseguirNumero", () => {
+  expect(calculatora.conseguirNumero()).toBe("conseguir Número");
+});
+test.skip("obtenerOperación", () => {
+  expect(calculatora.obtenerOperacion()).toBe("Obtener Oeración");
+});
+test.skip("GuardarResultado", () => {
+  expect(calculatora.GuardarResultado()).toBe("Guardar Resultado");
 });
