@@ -25,6 +25,12 @@ describe("calcular división", () => {
   });
 });
 
+describe("calcular raiz", ()=>{
+  test("raiz",()=>{
+    expect(calculatora.raiz(16)).toBe(4);
+  });
+});
+
 describe("calcular potencia", () => {
   test("potencia", () => {
     expect(calculatora.potencia(3,2)).toBe(9);
